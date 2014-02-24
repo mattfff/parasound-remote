@@ -1,0 +1,26 @@
+extends layout
+
+block content
+  h1 Parasound Remote 
+
+  fieldset#power
+    legend Power
+    button#power_on On 
+    button#power_off Off
+  
+  fieldset#volume
+    legend Volume
+    button#volume_up Up
+    button#volume_down Down
+
+  fieldset#source
+    legend Source
+    button#source_71 Bluray
+    button#source_optical TV/Roku
+    button#source_line iPod
+
+  fieldset#audio_mode
+    legend Audio Modes
+    button#sub_up Sub Inc
+    button#sub_down Sub Dec
+    button#toggle_late_night Late Night
