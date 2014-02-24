@@ -5,6 +5,6 @@ I have a unique a/v setup with my somewhat aging (but still very great sounding)
 
 A few hours after unboxing my new rpi it was all working great! So this is very specific to my use, but it does use the great node serialport library, and might be of some use to someone wanting to do something similar.
 
-The rpi just runs the node app continually, and I control the 7100 using my phone just like all the other units!
+The rpi just runs the node app continually, and I control the 7100 using my phone just like all the other units! It runs using forever, with the "parasound-remote" init script in this repo, which is in /etc/init.d.
 
-Next will hopefully be control of my TV using libcec, but unfortunately my old Panasonic plasma has only two hdmi ports, both of which are in use... If I get a new TV I should be able to add libcec control to control TV power and inputs as well...
+Next will hopefully be control of my TV using libcec, but unfortunately my old Panasonic plasma has only two hdmi ports, both of which are in use... If I get a new TV I should be able to add libcec control to control TV power and inputs as well.
